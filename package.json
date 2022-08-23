@@ -7,6 +7,10 @@
         "dist",
         "src"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/v1ctr/test-ui-library"
+    },
     "engines": {
         "node": ">=10"
     },
@@ -38,8 +42,9 @@
         "singleQuote": true,
         "trailingComma": "es5"
     },
-    "name": "test-ui-library",
-    "author": "Victor",
+    "name": "@v1ctr/test-ui-library",
+    "description": "Testing the creation of an ui component library",
+    "author": "v1ctr",
     "module": "dist/test-ui-library.esm.js",
     "size-limit": [
         {
